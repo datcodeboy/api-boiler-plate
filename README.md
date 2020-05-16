@@ -48,6 +48,7 @@ Setting up this boiler plate is easy especially for those familiar with the lara
 - Copy the `.env.example` to `.env` file
 - Set up the database credentials to suit your configuration
 - Run `php artisan migrate` to migrate the tables into your database
+- Run `php artisan key:generate` to generate application encryption key
 - Run `php artisan passport:install` to get your personal access client and grant created
 - Run `php artisan db:seed` to seed an initial user to your users table
 - Download the postman collection from the link above
